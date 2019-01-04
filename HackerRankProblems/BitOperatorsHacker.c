@@ -16,7 +16,6 @@ void calculate_the_maximum(int n, int k) {
         continue;
       }
       if( (i&j) > maxAnd && (i&j) < k){
-        printf("Here %d\n", i&j);
         maxAnd = i&j;
       }
       if( (i|j) > maxOR && (i|j) < k){
